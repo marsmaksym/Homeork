@@ -1,0 +1,83 @@
+form{
+    margin: 50px;
+}
+
+fieldset{
+    padding: 2rem 1rem;
+    border: solid 2px black;
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+p{
+    display: flex;
+    align-items: center;
+}
+label{
+
+    width: 5rem;
+}
+button{
+    margin-top: 2rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+select{
+    cursor: pointer;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    resize : none;
+}
+
+
+.check {
+    margin-left: 50px ;
+    cursor: pointer;
+}
+
+.check__input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.check__box {
+    position: absolute;
+    width: 1.99em;
+    height: 1.99em;
+    border: .15em solid black;
+    border-radius: 20%;
+}
+
+.check__input:checked + .check__box {
+    background: url(../img/green.png) center;
+    background-size: 3em;
+    border: none;
+    border-radius: 20%;
+
+}
+
+.check__input:focus + .check__box {
+    box-shadow: 0 0 0 0.2em #4285f4;
+}
+
+.check__input:disabled + .check__box {
+    border: .15em solid gray;
+    border-radius: 20%;
+}
+
+.check__input:checked:disabled + .check__box {
+    background-image: url(../img/green.png);
+    opacity: 50%;
+    border: .15em solid gray;
+    border-radius: 20%;
+}
+
+  

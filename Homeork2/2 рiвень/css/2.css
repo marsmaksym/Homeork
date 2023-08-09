@@ -1,0 +1,12 @@
+.list a[href^='https://'] {
+    color: red;
+}
+.list a[href^='http://'] {
+    color: #ff8d00;
+}
+p:first-of-type {
+    font-size: 26px;
+  }
+.list a[title]{
+    border: 1px solid #067b09;
+}

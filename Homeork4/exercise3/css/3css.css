@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+.main{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 25%;
+    margin: auto;
+}
+.element{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: relative;
+    margin: 10px;
+    animation: level1 6s ease-in-out infinite;
+}
+
+@keyframes level1{
+    0%{background-color: aqua; top: 0%; right: 0%;}
+    25%{background-color: brown; top: 70%; right: -10%;}
+    50%{background-color: violet; top: 65%; right: -70%;}
+    75%{background-color: chocolate; top: 20%; right: -75%;}
+    100%{background-color:aqua; top: 0%; right: 0%;}
+}

@@ -1,0 +1,108 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: chocolate;
+    max-height: 70px;
+}
+.logo img{
+    max-height: 60px;
+    padding-left: 30px;
+}
+.items{
+    display: flex;
+    font-weight: bold;
+}
+.items p{
+    margin-right: 20px;
+    cursor: pointer;
+}   
+
+
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+aside{
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 200px;
+}
+.aside1{
+    background-color: darkslateblue;
+    padding-top: 20px;
+}
+.aside2{
+    background-color: darksalmon;
+    padding-top: 20px;
+}
+.main-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 6 1 300px;
+    
+}
+samp{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+h1{
+    font-weight: bold;
+}
+
+.elements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.element{
+    margin-top: 30px;
+    padding: 20px;
+    min-height: 300px;
+    flex: 0 1 25%;
+    border: solid 2px gray;
+    border-radius: 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-block{
+    flex: 1 1 auto;
+    padding-top: 30px;
+}
+.text-block h2{
+    font-size: larger;
+    font-weight: bold;
+}
+.text-block p{
+    padding-top: 30px;
+}
+.element img{
+    height: 80px;
+    width: 80px;
+    margin-top: 30px;
+    border: solid 20px rgb(187, 170, 170);
+    border-radius: 100%;
+}
+button{
+    background-color: rgb(95, 62, 62);
+    color: white;
+    border-radius: 30%;
+    margin-top: 30px;
+    width: 60px;
+    cursor: pointer;
+}
+footer{
+    min-height: 60px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

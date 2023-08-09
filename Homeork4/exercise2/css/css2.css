@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+}
+div{
+    position: absolute;
+}
+.element1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(209, 115, 115);
+    top: 50%;
+    left: 50%;
+    transform: translate(-65px, -65px);
+}
+.element2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(143, 143, 226);
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+.element3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(173, 204, 128);
+    top: 50%;
+    left: 50%;
+    transform: translate(65px, 65px);
+}
